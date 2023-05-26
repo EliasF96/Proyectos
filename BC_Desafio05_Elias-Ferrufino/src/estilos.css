@@ -1,0 +1,94 @@
+html {
+  background: url("../public/img/ciudad.png");
+  background-color: #4c7b9d;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+body {
+  background-color: #acdadc;
+  margin: 100px 100px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px #555 inset;
+  background-image: url("/");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url(styles/Lobster.otf);
+}
+* {
+  margin: 0;
+}
+
+h1 {
+  z-index: 1;
+  font-size: 40px;
+  position: fixed;
+  display: flex;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  align-items: center;
+  justify-content: center;
+  font-family: Lobster;
+  background-color: #df3448;
+  color: #fff;
+  text-shadow: 2px 2px 5px #222;
+  height: 70px;
+}
+
+h2 {
+  position: relative;
+  color: red;
+  font-family: Lobster;
+  text-align: center;
+  padding-top: 50px;
+  filter: drop-shadow(1px 1px 2px #555);
+}
+
+p:first-of-type, p:nth-of-type(5) {
+  padding: 20px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+
+p:first-of-type:first-letter, p:nth-of-type(5):first-letter {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+
+p:first-letter {
+  font-size: 30px;
+  font-family: Lobster;
+}
+
+p {
+  margin: 10px 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #035;
+}
+
+p:nth-of-type(9) {
+  color: red;
+}
+
+p:last-of-type {
+  padding-bottom: 100px;
+}
+
+img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 2px solid red;
+  height: auto;
+  margin-top: -100px;
+  border: red solid 1px;
+}/*# sourceMappingURL=estilos.css.map */
