@@ -6,9 +6,7 @@
 
 
 //Fuente Lobster
-@font-face 
-    font-family: Lobster
-    src: url(styles/Lobster.otf)
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap')
 
 *
     margin:0
@@ -31,8 +29,9 @@ h1
     height: 70px
     
 h2
+    font-size: 30px
     position: relative
-    color: red 
+    color: #df3448 
     font-family: Lobster
     text-align: center
     padding-top: 50px
@@ -41,28 +40,36 @@ h2
 
 
 p:first-of-type, p:nth-of-type(5)
+    font-size: 1.5rem
+    font-weight: 500
     padding:20px
     text-align: center
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    font-style: italic
+    
 
 
 p:first-of-type:first-letter, p:nth-of-type(5):first-letter
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     font-size: 18px
+    
 
 p:first-letter
     font-size: 30px
     font-family: Lobster
+    font-style: italic
+    font-weight: 600
 
 p
     margin:10px 25px
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    color: #035 
+    color: #035
+    
+    
     
 //ANTEULTIMO PARRAFO SEPARADO
 p:nth-of-type(9)
-    color: red
+    color: #035
+    
 
 //ULTIMO PARRAFO CON EL FONDO DE GATO Y SU TAMAÑO
 p:last-of-type
@@ -73,8 +80,7 @@ img
     left:0
     right:0 
     margin: 0 auto
-    border:2px solid red
     height: auto
     margin-top:-100px
-    border: red solid 1px
+
     
